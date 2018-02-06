@@ -15,7 +15,7 @@ public class OreoNotifications {
     public static void initialize(Context context) {
         Log.d(LOGTAG, "OreoNotifications.initialize()");
 
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) return;
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) return;
 
         createDefaultChannel(context);
     }
@@ -30,7 +30,7 @@ public class OreoNotifications {
 
     public static void setChannel(Context context, Notification.Builder builder) {
         Log.d(LOGTAG, "OreoNotifications.setChannel()");
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) return;
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) return;
 
         builder.setChannelId(getChannelId(context));
     }
