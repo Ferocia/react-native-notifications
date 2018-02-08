@@ -384,7 +384,7 @@ NotificationsAndroid.localNotification({
 ```
 The supported properties are:
 
-`data`, `title`, `body`, `icon`, `tag`, `sound`, `color`, `largeIcon`, `lightsColor`, `lightsOnMs` and `lightsOffMs`.
+`data`, `title`, `body`, `icon`, `tag`, `sound`, `color`, `largeIcon`, `lightsColor`, `lightsOnMs`, `lightsOffMs` and `bigText`.
 
 Please refer to the "Notification Object" section for details about each property.
 
