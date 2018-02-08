@@ -293,6 +293,7 @@ NotificationsAndroid.setNotificationOpenedListener((notification) => {
 - **`getLightsColor()`**- a `#rrggbb` formatted color that will set the color of the flashing notification LED on device's that have one. Typically this will only light-up if the device's screen is off when the notification is received.
 - **`getLightsOnMs()`**- how many milliseconds the notification LED should stay lit whilst flashing.
 - **`getLightsOffMs()`**- how many milliseconds the notification LED should stay unlit between flashes.
+- **`getBigText()`**- the notification's text to be shown in big text mode.
 ---
 
 #### Receiving Notifications in the Background
